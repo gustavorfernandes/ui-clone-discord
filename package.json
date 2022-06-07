@@ -2,7 +2,7 @@
   "name": "discord",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://gustavorfernandes.github.io/ui-clone-discord",
   "dependencies": {
     "@styled-icons/heroicons-outline": "^10.36.0",
     "@styled-icons/material": "^10.34.0",
@@ -13,6 +13,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
