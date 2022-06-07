@@ -2,7 +2,7 @@
   "name": "discord",
   "version": "0.1.0",
   "private": true,
-  "homepage": "discord/",
+  "homepage": ".",
   "dependencies": {
     "@styled-icons/heroicons-outline": "^10.36.0",
     "@styled-icons/material": "^10.34.0",
