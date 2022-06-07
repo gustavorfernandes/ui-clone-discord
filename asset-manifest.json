@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/ui-clone-discord/static/js/main.40af9200.js",
+    "static/media/discord-logo.png": "/ui-clone-discord/static/media/discord-logo.2f26b12210749d45d35c.png",
+    "index.html": "/ui-clone-discord/index.html",
+    "main.40af9200.js.map": "/ui-clone-discord/static/js/main.40af9200.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.40af9200.js"
+  ]
+}
