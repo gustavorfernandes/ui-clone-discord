@@ -12,143 +12,165 @@ const ChannelData: React.FC = () => {
     if (div) {
       div.scrollTop = div.scrollHeight;
     }
-  }, [messagesRef]); 
-  
+  }, [messagesRef]);
+
   return (
     <Container>
       <Messages ref={messagesRef}>
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
 
         <ChannelMessage
           //key={n}
-          author="Leanos"
+          author="Gustavo"
           date="06/06/2022"
-          content="Mensagem"
+          content="Esta é uma mensagem."
         />
-
-
-
-
-
-
 
         <ChannelMessage
           //key={n}
-          author="Aliene"
+          author="Gustavo"
+          date="06/06/2022"
+          content="Esta é uma mensagem."
+        />
+
+        <ChannelMessage
+          //key={n}
+          author="Gustavo"
+          date="06/06/2022"
+          content="Esta é uma mensagem."
+        />
+
+        <ChannelMessage
+          //key={n}
+          author="Gustavo"
+          date="06/06/2022"
+          content="Esta é uma mensagem."
+        />
+
+        <ChannelMessage
+          //key={n}
+          author="Gustavo"
+          date="06/06/2022"
+          content="Esta é uma mensagem."
+        />
+
+        <ChannelMessage
+          //key={n}
+          author="Alguém"
           date="06/06/2022"
           content={
             <>
-              <Mention>@Leanos</Mention>, eu te amo!
+              <Mention>@Gustavo</Mention>, você foi mencionado.
             </>
           }
           hasMention

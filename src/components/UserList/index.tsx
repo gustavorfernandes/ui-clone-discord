@@ -23,20 +23,39 @@ const UserList: React.FC = () => {
   return (
     <Container>
       <Role>Admin - 1</Role>
-      <UserRow nickname="Leanos" isAdmin />
-      <UserRow nickname="Music" isBot isAdmin/>
-      <UserRow nickname="Cadu Farias" isAdmin/>
+      <UserRow nickname="Gustavo" isAdmin />      
             
       <Role>Bot – 1</Role>                      
-      <UserRow nickname="Steam" isBot />
+      <UserRow nickname="Music" isBot />
 
       <Role>Disponível – 3</Role>      
-      <UserRow nickname="Aliene" />
+      <UserRow nickname="Alguém" />
+      <UserRow nickname="Alguém" />
+      <UserRow nickname="Alguém" />
 
-      <Role>Offline – 2</Role>
-      <UserRow nickname="Morgan Freeman" isOffline /> 
-      <UserRow nickname="Nicolas Cage" isOffline /> 
-      <UserRow nickname="Leo DiCaprio" isOffline />
+      <Role>Offline – 22</Role>
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />      
+      <UserRow nickname="Alguém" isOffline />
+      <UserRow nickname="Alguém" isOffline />
     </Container>
  );
 };
